@@ -1,0 +1,11 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'GLChart', :exclusive => true do
+  pod "GLChart", :path => "../"
+end
+
+target 'Tests', :exclusive => true do
+  pod "GLChart", :path => "../"
+
+  
+end
